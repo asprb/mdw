@@ -1,0 +1,9 @@
+language: go
+
+script: go get github.com/asprb/mdw && go test
+
+go:
+        - master
+
+notifications:
+        email: false
